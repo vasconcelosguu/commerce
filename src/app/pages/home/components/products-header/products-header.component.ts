@@ -26,7 +26,7 @@ implements OnInit {
     this.itemCount = itemCount;
   }
 
-  columnsUpdater(cols: number): void{
+  onColumnsUpdater(cols: number): void{
     this.columnsCountCHange.emit(cols)
   }
 
