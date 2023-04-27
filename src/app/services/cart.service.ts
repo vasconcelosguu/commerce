@@ -55,10 +55,6 @@ export class CartService {
     this._snackBar.open('Carrinho vazio!!', 'Ok', {duration:3000})
   }
 
-  if() {
-
-  }
-
   removeFromCart(item: CartItem, update = true): Array<CartItem>{
     const filteredItem = this.cart.value.items.filter((_item) => _item.id !== item.id);
 
